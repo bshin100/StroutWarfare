@@ -194,7 +194,7 @@ public class Game implements Runnable {
         }
 
         int randMap = (int)(Math.random() * 3 + 1);
-        loadMap(1);
+        loadMap(randMap);
 
         collidableObjects = new Sprite[]{fgObj1, fgObj2, fgObj3};
 
